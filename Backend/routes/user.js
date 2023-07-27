@@ -5,7 +5,7 @@ const express = require('express');
 const router = express.Router();
 const UserController = require('../controllers/registerAndSignin');
 const UserForgotpass = require('../controllers/forgotpass');
-const CLIENT_URL = "http://localhost:5000/";
+const CLIENT_URL = "http://localhost:3000/";
 
 // User Sign-Up API
 router.post('/register', UserController.signUp);
